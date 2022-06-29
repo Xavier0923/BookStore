@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yuekang\\Desktop\\bookstore\\BookStoreAPI\\BookStoreAPI.csproj": {}
+    "C:\\Users\\Wei\\Desktop\\BookStore\\BookStoreAPI\\BookStoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yuekang\\Desktop\\bookstore\\BookStoreAPI\\BookStoreAPI.csproj": {
+    "C:\\Users\\Wei\\Desktop\\BookStore\\BookStoreAPI\\BookStoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yuekang\\Desktop\\bookstore\\BookStoreAPI\\BookStoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Wei\\Desktop\\BookStore\\BookStoreAPI\\BookStoreAPI.csproj",
         "projectName": "BookStoreAPI",
-        "projectPath": "C:\\Users\\yuekang\\Desktop\\bookstore\\BookStoreAPI\\BookStoreAPI.csproj",
-        "packagesPath": "C:\\Users\\yuekang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yuekang\\Desktop\\bookstore\\BookStoreAPI\\obj\\",
+        "projectPath": "C:\\Users\\Wei\\Desktop\\BookStore\\BookStoreAPI\\BookStoreAPI.csproj",
+        "packagesPath": "C:\\Users\\Wei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wei\\Desktop\\BookStore\\BookStoreAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yuekang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Wei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,6 +75,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.16, 5.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -88,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

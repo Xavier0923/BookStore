@@ -1,6 +1,6 @@
 <div class="m-3">
-    <h5>books create : </h5>
-    <!-- <h5>books edit : </h5> -->
+    <h5 *ngIf="isState">books create : </h5>
+    <h5 *ngIf="!isState">books edit : </h5>
     <form action="" style="width:250px;" #myForm="ngForm">
         <div>
             <div style="width:250px;height:250px;border:1px dashed gray;">
@@ -24,7 +24,7 @@
         </div>
         <div class="form-group">
             <label for="">價格</label>
-            <input type="number" name="price" id="price" class="form-control" required [(ngModel)]="bookEditInfo.price" #price="ngModel">
+            <input type="number" name="price" id="price" class="form-control" min="1" max="99999" required [(ngModel)]="bookEditInfo.price" #price="ngModel">
             <div style="height:30px;">
                 <p *ngIf="price.invalid && (price.touched || price.dirty)" class="text-danger">Price is required!!</p>
             </div>
