@@ -9,7 +9,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 	templateUrl: './login.component.html',
 	styleUrls: ['./login.component.less']
 })
-export class LoginComponent implements OnInit, OnDestroy {
+export class LoginComponent implements OnInit {
 
 	// login 資訊
 	userInfo: any = {
@@ -24,9 +24,9 @@ export class LoginComponent implements OnInit, OnDestroy {
 		private router: Router,
 		private route: ActivatedRoute,
 	) { }
-	ngOnDestroy(): void {
-		localStorage.removeItem('userinfo');
-	}
+	// ngOnDestroy(): void {
+	// 	localStorage.removeItem('userinfo');
+	// }
 
 	ngOnInit(): void {
 
